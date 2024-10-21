@@ -1,9 +1,7 @@
 'use client';
 
-import Image from 'next/image';
 import React from 'react';
-import Link from 'next/link';
-import { Navbar, NavbarBrand, NavbarContent, NavbarItem } from '@nextui-org/react';
+import { Navbar, NavbarContent, NavbarItem } from '@nextui-org/react';
 import { Metalurgice, Constructii, Electrice, Sanitare, Unelte, Gradina } from '../../public/data/DummyData';
 import { DropdownComponent } from './DropdownComponent';
 import { SearchComponent } from './SearchComponent';

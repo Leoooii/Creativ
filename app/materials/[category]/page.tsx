@@ -1,6 +1,6 @@
 'use client';
 
-import { ImageCardComponent } from '../components/ImageCardComponent';
+// import { ImageCardComponent } from '@app/components/ImageCardComponent';
 
 export default function Page({ params }: { params: { category: string } }) {
   return (
@@ -9,7 +9,7 @@ export default function Page({ params }: { params: { category: string } }) {
         <h2 className="text-xl font-bold mb-4 text-black">Materiale de Construcții{` >>`} </h2>
         <div className="text-black text-xl"> {params.category.replace(/%20/g, ' ')}</div>
       </div>
-      <ImageCardComponent filtru={params.category.replace(/%20/g, ' ')} />
+      {/* <ImageCardComponent filtru={params.category.replace(/%20/g, ' ')} /> */}
     </div>
   );
 }

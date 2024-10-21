@@ -54,7 +54,7 @@ import SideNav from './ui/dashboard/sidenav';
 // export const experimental_ppr = true;
 
 export const metadata: Metadata = {
-  title: 'Acme Dashboard',
+  title: 'Creativ Tub',
   description: 'The official Next.js Course Dashboard, built with App Router.',
   metadataBase: new URL('https://next-learn-dashboard.vercel.sh'),
 };

@@ -17,7 +17,12 @@ export const DropdownComponent = ({ array = [], name }: DropdownComponentProps) 
       </DropdownTrigger>
       <DropdownMenu variant="faded" color="primary" aria-label="Dynamic Actions" items={array} className="rounded-lg">
         {(item) => (
-          <DropdownItem key={Math.random()} color={'primary'} className={'default bg-white'} href={`/${item.label}`}>
+          <DropdownItem
+            key={Math.random()}
+            color={'primary'}
+            className={'default bg-white'}
+            href={`/materials/${item.label}`}
+          >
             {item.label}
           </DropdownItem>
         )}
