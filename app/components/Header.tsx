@@ -4,7 +4,7 @@ import React from 'react';
 import { Navbar, NavbarContent, NavbarItem } from '@nextui-org/react';
 import { Metalurgice, Constructii, Electrice, Sanitare, Unelte, Gradina } from '../../public/data/DummyData';
 import { DropdownComponent } from './DropdownComponent';
-import { SearchComponent } from './SearchComponent';
+// import { SearchComponent } from './SearchComponent';
 
 const Header = () => {
   return (
@@ -29,11 +29,11 @@ const Header = () => {
           <DropdownComponent array={Metalurgice} name="Metalurgice" />
         </NavbarItem>
       </NavbarContent>
-      <NavbarContent justify="end">
+      {/* <NavbarContent justify="end">
         <NavbarItem className="hidden lg:flex">
           <SearchComponent />
         </NavbarItem>
-      </NavbarContent>
+      </NavbarContent> */}
     </Navbar>
   );
 };
