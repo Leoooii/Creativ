@@ -1,6 +1,5 @@
 import { Autocomplete, AutocompleteItem } from '@nextui-org/autocomplete';
 import { Termeni } from '../../public/data/DummyData';
-import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 
 export const SearchComponent = () => {
