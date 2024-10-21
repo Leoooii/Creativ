@@ -4,11 +4,9 @@ import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 
 export const SearchComponent = () => {
-  const [value, setValue] = useState('');
   const router = useRouter();
 
   const onInputChange = (value) => {
-    setValue(value);
     router.push(`/${value}`);
   };
 

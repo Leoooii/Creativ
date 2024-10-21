@@ -11,10 +11,10 @@ interface ImageCardComponentProps {
 }
 
 export const ImageCardComponent: React.FC<ImageCardComponentProps> = ({ filtru }) => {
-  const [minim, setMinim] = useState(0);
-  const [maxim, setMaxim] = useState(700);
+  const [minim] = useState(0);
+  const [maxim] = useState(700);
   const [selectedValue, setSelectedValue] = useState(700);
-  const [currentPage, setCurrentPage] = useState(1);
+  const [setCurrentPage] = useState(1);
   const itemsPerPage = 5;
 
   let subcategorieGasita:
