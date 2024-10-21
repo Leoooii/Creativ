@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation';
 export const SearchComponent = () => {
   const router = useRouter();
 
-  const onInputChange = (value) => {
+  const onInputChange = (value: string) => {
     router.push(`/${value}`);
   };
 
